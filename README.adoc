@@ -1,0 +1,4 @@
+== Introuduction
+Business Engine is a framework for developing business logic requirements structured, configurable and customizable.
+
+NOTE: Work in progress...
