@@ -1,4 +1,19 @@
 == Introduction
+
 Business Engine is a framework for developing business logic requirements structured, configurable and customizable.
+
+=== How it works
+
+The *Business Engine* is built on two basic concepts, *rules* and *groups*.
+The main features are:
+
+* Parsing a single json that represent the entire business logic
+* Perform a user-friendly configuration by web app
+* Use the recent release of Spring framework (Spring-boot 2.7+)
+* Possibility to write logic in configuration without deploy nothing (see xref:https://docs.spring.io/spring-framework/docs/5.3.x/reference/html/core.html#expressions[SpelExpression])
+* Provides a mechanism of execution:
+** For each group in configuration execute rules (ordering specified in configuration)
+** If rule is blocking, stop current group execution
+** If there are no other rules to execute, jump to next group
 
 NOTE: Work in progress...
